@@ -11,16 +11,16 @@ export const Footer = () => {
     </span>
     <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6">Instagram</a>
+            <a href="https://www.facebook.com/" className="hover:underline me-4 md:me-6">Instagram</a>
         </li>
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6">Facebook</a>
+            <a href="https://www.facebook.com/" className="hover:underline me-4 md:me-6">Facebook</a>
         </li>
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6">X</a>
+            <a href="https://www.facebook.com/" className="hover:underline me-4 md:me-6">X</a>
         </li>
         <li>
-            <a href="#" className="hover:underline">Reddit</a>
+            <a href="https://www.facebook.com/" className="hover:underline">Reddit</a>
         </li>
     </ul>
     </div>
