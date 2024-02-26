@@ -16,11 +16,16 @@ export const Search = ({url}) => {
      async function fetchMyAPI() {
        const response = await fetch(newUrl)
        const data = await response.json()
+       console.log(data);
        setSearch(data.results)
      }
  
      fetchMyAPI()
-   }, [newUrl])
+   }, [newUrl]);
+
+   useEffect(() => {
+    document.title = `Search - MovieWorm`;
+  });
 
   return (
     <main className='mt-6 flex justify-center'>
